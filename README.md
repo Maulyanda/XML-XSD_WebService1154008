@@ -1,4 +1,4 @@
-# XML Dan XSD
+# XML dan XSD
 
 Maulyanda_1154008
 
