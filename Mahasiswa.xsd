@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified">
+    <xs:element name="dataproyek">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element maxOccurs="unbounded" ref="mahasiswa"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="mahasiswa">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element ref="npm"/>
+                <xs:element ref="jurusan"/>
+                <xs:element ref="nama"/>
+                <xs:element ref="email"/>
+                <xs:element ref="umur"/>
+                <xs:element ref="jk"/>
+                <xs:element ref="alamat"/>
+                <xs:element ref="nomor_hp"/>
+                <xs:element ref="hasil_proyek"/>
+                <xs:element ref="pembimbing"/>
+            </xs:sequence>
+            <xs:attribute name="aktif_proyek" use="required" type="xs:NCName"/>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="npm" type="xs:integer"/>
+    <xs:element name="jurusan" type="xs:string"/>
+    <xs:element name="email">
+    	<xs:simpleType>
+    		<xs:restriction base="xs:string">
+
+    			<xs:pattern value=".+@gmail.com"></xs:pattern>
+    			<xs:minLength value="5"></xs:minLength>
+
+    		</xs:restriction>
+    	</xs:simpleType>
+    </xs:element>
+    <xs:element name="umur" type="xs:integer"/>
+    <xs:element name="jk" type="xs:NCName"/>
+    <xs:element name="alamat" type="xs:NCName"/>
+    <xs:element name="nomor_hp" type="xs:integer"/>
+    <xs:element name="hasil_proyek" type="xs:NCName"/>
+    <xs:element name="pembimbing">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element ref="nik"/>
+                <xs:element ref="nama"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="nik" type="xs:NMTOKEN"/>
+    <xs:element name="nama" type="xs:string"/>
+</xs:schema>

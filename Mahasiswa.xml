@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataproyek xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Mahasiswa.xsd">
+	<mahasiswa aktif_proyek ="ya">
+		<npm>1154051</npm>
+		<jurusan>Teknik Informatika</jurusan>
+		<nama>Indra Riksa H.</nama>
+		<email>indrariksa@gmail.com</email>
+		<umur>19</umur>
+		<jk>laki-laki</jk>
+		<alamat>Cibiru</alamat>
+		<nomor_hp>082267879675</nomor_hp>
+		<hasil_proyek>A</hasil_proyek>
+		<pembimbing>
+			<nik>113.80.159</nik>
+			<nama>M. Nurkamal Fauzan</nama>
+		</pembimbing>
+	</mahasiswa>	
+
+	<mahasiswa aktif_proyek ="ya">
+		<npm>1154061</npm>
+		<jurusan>Teknik Informatika</jurusan>
+		<nama>Berlin Mitra P.</nama>
+		<email>berlinmitraa@gmail.com</email>
+		<umur>19</umur>
+		<jk>laki-laki</jk>
+		<alamat>Cijirokaso</alamat>
+		<nomor_hp>089877564312</nomor_hp>
+		<hasil_proyek>B</hasil_proyek>
+		<pembimbing>
+			<nik>215.89.158</nik>
+			<nama>Nisa Hanum Harani</nama>
+		</pembimbing>	
+	</mahasiswa>
+
+	<mahasiswa aktif_proyek ="ya">
+		<npm>1154009</npm>
+		<jurusan>Teknik Informatika</jurusan>
+		<nama>Agien Farhan S.</nama>
+		<email>agienfarhan@gmail.com</email>
+		<umur>19</umur>
+		<jk>laki-laki</jk>
+		<alamat>Cijirokaso</alamat>
+		<nomor_hp>081389778567</nomor_hp>
+		<hasil_proyek>B</hasil_proyek>
+		<pembimbing>
+			<nik>215.89.158</nik>
+			<nama>Nisa Hanum Harani</nama>
+		</pembimbing>
+	</mahasiswa>	
+
+	<mahasiswa aktif_proyek ="tidak">
+		<npm>1154054</npm>
+		<jurusan>Teknik Informatika</jurusan>
+		<nama>Indra Saryoni S.</nama>
+		<email>indrasaryoni@gmail.com</email>
+		<umur>20</umur>
+		<jk>laki-laki</jk>
+		<alamat>Cijirokaso</alamat>
+		<nomor_hp>082356876901</nomor_hp>
+		<hasil_proyek>E</hasil_proyek>
+		<pembimbing>
+			<nik>115.88.193</nik>
+			<nama>Roni Andarsyah</nama>
+		</pembimbing>
+	</mahasiswa>
+
+	<mahasiswa aktif_proyek ="ya">
+		<npm>1154021</npm>
+		<jurusan>Teknik Informatika</jurusan>
+		<nama>Kindi Herdiansyah</nama>
+		<email>kindiherdi@gmail.com</email>
+		<umur>19</umur>
+		<jk>laki-laki</jk>
+		<alamat>Cijirokaso</alamat>
+		<nomor_hp>082278996545</nomor_hp>
+		<hasil_proyek>B</hasil_proyek>
+		<pembimbing>
+			<nik>115.88.193</nik>
+			<nama>Roni Andarsyah</nama>
+		</pembimbing>			
+	</mahasiswa>
+	
+	<mahasiswa aktif_proyek ="tidak">
+		<npm>1154011</npm>
+		<jurusan>Teknik Informatika</jurusan>
+		<nama>Oka Irvian S.</nama>
+		<email>okairvian@gmail.com</email>
+		<umur>20</umur>
+		<jk>laki-laki</jk>
+		<alamat>Cijirokaso</alamat>
+		<nomor_hp>082166987854</nomor_hp>
+		<hasil_proyek>E</hasil_proyek>
+		<pembimbing>
+			<nik>215.86.148</nik>
+			<nama>Rolly Maulana Awangga</nama>
+		</pembimbing>
+	</mahasiswa>
+</dataproyek>
